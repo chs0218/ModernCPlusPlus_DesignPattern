@@ -7,6 +7,9 @@
     <Filter Include="Mixin">
       <UniqueIdentifier>{28786ffc-2013-49f8-86f9-683651b88157}</UniqueIdentifier>
     </Filter>
+    <Filter Include="속성">
+      <UniqueIdentifier>{5b9ebb86-fde4-4961-9d58-bb0965b77e79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CRTP.cpp">
@@ -17,6 +20,9 @@
     </ClCompile>
     <ClCompile Include="Mixin.cpp">
       <Filter>Mixin</Filter>
+    </ClCompile>
+    <ClCompile Include="속성.cpp">
+      <Filter>속성</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
