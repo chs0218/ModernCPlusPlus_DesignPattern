@@ -4,6 +4,9 @@
     <Filter Include="CRTP">
       <UniqueIdentifier>{de3ed2bb-2a20-4cb5-b38c-2d8a059d4780}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Mixin">
+      <UniqueIdentifier>{28786ffc-2013-49f8-86f9-683651b88157}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CRTP.cpp">
@@ -11,6 +14,9 @@
     </ClCompile>
     <ClCompile Include="CRTP_Practice.cpp">
       <Filter>CRTP</Filter>
+    </ClCompile>
+    <ClCompile Include="Mixin.cpp">
+      <Filter>Mixin</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
