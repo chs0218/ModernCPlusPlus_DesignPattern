@@ -10,6 +10,9 @@
     <Filter Include="속성">
       <UniqueIdentifier>{5b9ebb86-fde4-4961-9d58-bb0965b77e79}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SOLID 디자인 원칙">
+      <UniqueIdentifier>{654c4581-cbbc-4a6a-aa9f-955d2632ddfb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CRTP.cpp">
@@ -23,6 +26,12 @@
     </ClCompile>
     <ClCompile Include="속성.cpp">
       <Filter>속성</Filter>
+    </ClCompile>
+    <ClCompile Include="Outline.cpp">
+      <Filter>SOLID 디자인 원칙</Filter>
+    </ClCompile>
+    <ClCompile Include="SRP.cpp">
+      <Filter>SOLID 디자인 원칙</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
